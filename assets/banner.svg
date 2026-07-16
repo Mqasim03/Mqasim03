@@ -1,0 +1,130 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="80" y1="20" x2="1320" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0A1323"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="0.52" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111C2E" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#0B1220" stop-opacity="0.88"/>
+    </linearGradient>
+
+    <radialGradient id="glowOne" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 60) rotate(135) scale(360 260)">
+      <stop stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowTwo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(90 390) rotate(-25) scale(410 270)">
+      <stop stop-color="#2DD4BF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#94A3B8" stroke-opacity="0.09"/>
+    </pattern>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="420" rx="30" fill="url(#background)"/>
+  <rect width="1400" height="420" rx="30" fill="url(#grid)"/>
+  <rect width="1400" height="420" rx="30" fill="url(#glowOne)"/>
+  <rect width="1400" height="420" rx="30" fill="url(#glowTwo)"/>
+
+  <path d="M0 344C260 282 420 398 694 332C946 272 1110 294 1400 218V420H0V344Z" fill="#0F1B2D" fill-opacity="0.42"/>
+  <path d="M0 360C270 300 430 410 710 345C955 288 1134 304 1400 236" stroke="url(#accent)" stroke-opacity="0.22" stroke-width="2"/>
+
+  <g transform="translate(74 58)">
+    <rect width="254" height="40" rx="20" fill="#0E1B2C" stroke="#2DD4BF" stroke-opacity="0.28"/>
+    <circle cx="22" cy="20" r="6" fill="#34D399"/>
+    <circle cx="22" cy="20" r="12" fill="#34D399" fill-opacity="0.13"/>
+    <text x="42" y="25" fill="#C8F7EF" font-size="14" font-family="Segoe UI, Arial, sans-serif" font-weight="600" letter-spacing="0.45">AVAILABLE FOR PRODUCT ENGINEERING</text>
+  </g>
+
+  <g transform="translate(74 132)">
+    <rect x="0" y="0" width="6" height="150" rx="3" fill="url(#accent)"/>
+    <text x="30" y="55" fill="#F8FAFC" font-size="66" font-family="Segoe UI, Arial, sans-serif" font-weight="750" letter-spacing="-1.8">Muhammad Qasim</text>
+    <text x="32" y="98" fill="#67E8F9" font-size="23" font-family="Segoe UI, Arial, sans-serif" font-weight="650" letter-spacing="2.1">FULL-STACK ENGINEER  /  TECH LEAD</text>
+    <text x="32" y="138" fill="#AAB8CC" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="400">Designing scalable SaaS, CRM, automation, and real-time products</text>
+    <text x="32" y="166" fill="#7F90A8" font-size="16" font-family="Segoe UI, Arial, sans-serif" font-weight="400">from architecture and APIs to polished interfaces and production delivery.</text>
+  </g>
+
+  <g transform="translate(106 330)" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="650">
+    <g>
+      <rect width="96" height="36" rx="18" fill="#101C2C" stroke="#38BDF8" stroke-opacity="0.24"/>
+      <text x="48" y="23" fill="#DDEAF7" text-anchor="middle">React</text>
+    </g>
+    <g transform="translate(108 0)">
+      <rect width="104" height="36" rx="18" fill="#101C2C" stroke="#38BDF8" stroke-opacity="0.24"/>
+      <text x="52" y="23" fill="#DDEAF7" text-anchor="middle">Next.js</text>
+    </g>
+    <g transform="translate(224 0)">
+      <rect width="112" height="36" rx="18" fill="#101C2C" stroke="#2DD4BF" stroke-opacity="0.24"/>
+      <text x="56" y="23" fill="#DDEAF7" text-anchor="middle">Node.js</text>
+    </g>
+    <g transform="translate(348 0)">
+      <rect width="108" height="36" rx="18" fill="#101C2C" stroke="#2DD4BF" stroke-opacity="0.24"/>
+      <text x="54" y="23" fill="#DDEAF7" text-anchor="middle">Django</text>
+    </g>
+    <g transform="translate(468 0)">
+      <rect width="136" height="36" rx="18" fill="#101C2C" stroke="#A78BFA" stroke-opacity="0.24"/>
+      <text x="68" y="23" fill="#DDEAF7" text-anchor="middle">PostgreSQL</text>
+    </g>
+    <g transform="translate(616 0)">
+      <rect width="92" height="36" rx="18" fill="#101C2C" stroke="#A78BFA" stroke-opacity="0.24"/>
+      <text x="46" y="23" fill="#DDEAF7" text-anchor="middle">AWS</text>
+    </g>
+  </g>
+
+  <g transform="translate(928 70)" filter="url(#shadow)">
+    <rect width="400" height="280" rx="24" fill="url(#panel)" stroke="#A5F3FC" stroke-opacity="0.13"/>
+    <rect x="1" y="1" width="398" height="52" rx="23" fill="#111D2D"/>
+    <path d="M1 52H399" stroke="#334155" stroke-opacity="0.5"/>
+
+    <circle cx="25" cy="26" r="5" fill="#FB7185"/>
+    <circle cx="44" cy="26" r="5" fill="#FBBF24"/>
+    <circle cx="63" cy="26" r="5" fill="#34D399"/>
+    <text x="198" y="31" fill="#718096" font-size="13" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" letter-spacing="1">ENGINEERING PROFILE</text>
+
+    <g font-family="Consolas, Menlo, monospace" font-size="15">
+      <text x="28" y="92" fill="#5EEAD4">01</text>
+      <text x="66" y="92" fill="#91A4BC">product.focus</text>
+      <text x="214" y="92" fill="#E2E8F0">= "SaaS + CRM"</text>
+
+      <text x="28" y="132" fill="#5EEAD4">02</text>
+      <text x="66" y="132" fill="#91A4BC">architecture</text>
+      <text x="214" y="132" fill="#E2E8F0">= "scalable"</text>
+
+      <text x="28" y="172" fill="#5EEAD4">03</text>
+      <text x="66" y="172" fill="#91A4BC">delivery</text>
+      <text x="214" y="172" fill="#E2E8F0">= "end-to-end"</text>
+
+      <text x="28" y="212" fill="#5EEAD4">04</text>
+      <text x="66" y="212" fill="#91A4BC">systems</text>
+      <text x="214" y="212" fill="#E2E8F0">= "real-time"</text>
+    </g>
+
+    <rect x="28" y="238" width="344" height="1" fill="#334155"/>
+    <circle cx="42" cy="258" r="5" fill="#2DD4BF"/>
+    <text x="58" y="263" fill="#A5F3FC" font-size="13" font-family="Segoe UI, Arial, sans-serif" font-weight="600">BUILD  •  LEAD  •  SHIP  •  IMPROVE</text>
+  </g>
+
+  <circle cx="1318" cy="72" r="18" fill="#38BDF8" fill-opacity="0.15" filter="url(#softGlow)"/>
+  <circle cx="1318" cy="72" r="5" fill="#7DD3FC"/>
+
+  <rect x="1" y="1" width="1398" height="418" rx="29" stroke="#94A3B8" stroke-opacity="0.13"/>
+</svg>
