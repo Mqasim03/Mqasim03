@@ -110,7 +110,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3>CallLoom</h3>
-      <p>Real-time video and messaging platform designed for dependable live communication.</p>
+      <p>calllom is a real time call traking system inbound and outbound calls track and people lookup functionalites availablb.</p>
       <p><code>React</code> <code>Node.js</code> <code>Socket.IO</code> <code>MongoDB</code></p>
       <a href="https://callloom.com"><strong>View product →</strong></a>
     </td>
