@@ -16,7 +16,7 @@
 
 <p align="center">
   <strong>Product-minded full-stack engineer building reliable systems from architecture to production.</strong><br />
-  <sub>3+ years across SaaS products, enterprise CRMs, real-time platforms, automation, and technical leadership.</sub>
+  <sub>3+ years across SaaS products, enterprise CRMs, real-time platforms, automation, AI integrations and technical leadership.</sub>
 </p>
 
 ---
